@@ -5,6 +5,9 @@ function fun(a, b) {
     console.log("Wynik dodawania wynosi ", suma);
     console.log("Wynik odejmowania wynosi ", roznica);
     console.log("Wynik mnożenia wynos ", mnozenie);
+    if (roznica < 0 || mnozenie < 0) {
+        console.log("Wynik jest nieprawidłowy");
+    }
 }
 
-fun(8, 3)
+fun(8, 3);
